@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Destrava Mocinha</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div>
+      <h1>Entenda como multiplicar seu faturamento apenas destravando sua comunicação e transformando seu processo de vendas!!</h1>
+      
+      <video id="video" controls>
+        <source src="C:\projetos web\web1\LANDING PAGE\V1TOP.mp4" type="video/mp4">
+      </video>
+
+      <h2>
+        Se inscreva no maior webnario da América Latina!
+      </h2>
+      <form>
+        <div class="form-container">
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" required />
+
+        <label for="email">Email:</label>
+        <input type="text" id="email" name="email" required />
+      
+        <label>Gênero:</label>
+        <div class="radio-group">
+          <input
+            type="radio"
+            id="masculino"
+            name="genero"
+            value="masculino"
+            required
+          />
+          <label for="masculino">Masculino</label>
+          <input type="radio" id="feminino" name="genero" value="feminino" />
+          <label for="feminino">Feminino</label>
+          <input type="radio" id="outro" name="genero" value="outro" />
+          <label for="outro">Outro</label>
+        </div>
+
+        <label for="pais">País:</label>
+        <select id="pais" name="pais" required>
+          <option value="brasil">Brasil</option>
+          <option value="eua">Estados Unidos</option>
+          <option value="canada">Canadá</option>
+        </select>
+
+        <button type="submit">Inscreva-se</button>
+      </form>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
